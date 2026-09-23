@@ -8,6 +8,7 @@
     "#minecraft:walls",
     "#minecraft:fences",
     "#minecraft:wooden_fences",
+    "#eonmod:pillars",
     "#forge:fences",
     "#forge:fences/wooden",
     "#forge:fences/nether_brick",

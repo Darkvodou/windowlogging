@@ -93,7 +93,10 @@ jar {
     }
 }
 
-jar.finalizedBy('reobfJar')
+tasks.register('devJar', Jar) {
+    archiveClassifier = 'dev'
+    from sourceSets.main.output
+}
 
 buildConfig {
     buildConfigField 'String', 'MODID', "\"${modid}\""
